@@ -74,7 +74,7 @@ const initialCountriesList = [
   },
 ]
 
-// Replace your code here
+
 const App = () => <Home list={initialCountriesList} />
 
 export default App
