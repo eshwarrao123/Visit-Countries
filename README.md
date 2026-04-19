@@ -1,6 +1,4 @@
 
-
-<br/>
 PROJECT URL : https://myvisitedcntry7.ccbp.tech/
 <br/>
 
@@ -24,47 +22,7 @@ PROJECT URL : https://myvisitedcntry7.ccbp.tech/
 
 </details>
 
-### Completion Instructions
 
-<details>
-<summary>Functionality to be added</summary>
-<br/>
-
-The app must have the following functionalities
-
-- Initially, the list of given countries should be displayed.
-  - If the country is not visited, it should be displayed with the **Visit** button.
-  - If the country is visited, it should be displayed with the text **Visited** and also should be displayed in the visited countries.
-- When a **Visit** button of the country is clicked,
-  - The country should be added in the visited countries.
-  - The **Visit** button of a respective country should be replaced with the text **Visited**.
-- When a **Remove** button in one of the visited countries is clicked,
-  - The respective visited country should be removed from the visited countries.
-  - The **Visited** text of a respective visited country should be replaced with a **Visit** button.
-- When all the visited countries are removed, then [No Visited Countries View](https://assets.ccbp.in/frontend/content/react-js/visit-countries-no-visited-countries-lg-output.png) should be displayed.
-- The `App` component consists of the `initialCountriesList`. It consists of a list of countries with the following properties in each country object.
-
-  |    key    | DataType |
-  | :-------: | :------: |
-  |    id     |  String  |
-  |   name    |  String  |
-  | imageUrl  |  String  |
-  | isVisited | Boolean  |
-
-</details>
-
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instruction is required for the tests to pass**
-
-- The image of each visited country should have the `alt` attribute value as **thumbnail**.
-
-</details>
 
 ### Resources
 
